@@ -4,13 +4,13 @@ import { PrismAsync as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 function App() {
-  const codeKey = ["code", "kode", "codingan", "kodingan", "script", "javascript"];
-  const keys = Object.keys(prompts.answer);
-
   const [prompts, setPrompts] = useState({
     question: "",
     answer: "",
   });
+
+  const codeKey = ["code", "kode", "codingan", "kodingan", "script", "javascript"];
+  const keys = Object.keys(prompts.answer);
 
   const openai = new OpenAI({
     apiKey: import.meta.env.VITE_MY_OPEN_AI_KEY,
