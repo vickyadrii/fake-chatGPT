@@ -1,8 +1,5 @@
-# React + Vite
+# Fake ChatGPT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### a simple chatGPT clone using Open-AI API <br>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1680" alt="Screenshot 2023-12-07 at 13 56 53" src="https://github.com/vickyadrii/fake-chatGPT/assets/76042524/f83e75b7-0cfa-4e59-a775-6437d5e4c8b6">
